@@ -19,7 +19,7 @@ func main() {
 	createMatrix(matrix2, n, m)
 
 	addMatrix(matrix1, matrix2, n, m)
-	fmt.Println("MUL: matrix1 * matrix2: ", addMatrix(matrix1, matrix2, n, m))
+	fmt.Println("ADD: matrix1 * matrix2: ", addMatrix(matrix1, matrix2, n, m))
 
 	MulMatrix(matrix1, matrix2, n, m)
 	fmt.Println("MUL: matrix1 * matrix2: ", MulMatrix(matrix1, matrix2, n, m))
